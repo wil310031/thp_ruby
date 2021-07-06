@@ -1,5 +1,6 @@
 puts "Entrer un nombre"
 number = gets.chomp.to_i
-for n in number...0
-    puts "#{n - 1}"
+number.times do
+    number -=1 
+    puts number
 end
